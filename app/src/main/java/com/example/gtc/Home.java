@@ -68,7 +68,7 @@ public class Home extends AppCompatActivity {
                         break;
                   /*
 Here I need to change the code such as when you are logged in to have the logout option visible, and when you are logout to view the log in option
-*/
+aASDASDASDASDASDASDASD*/
                     case R.id.navi_logout:
                         Toast.makeText(Home.this, "Logout is Clicked", Toast.LENGTH_SHORT).show();
                         break;
