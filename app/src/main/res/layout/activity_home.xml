@@ -9,25 +9,42 @@
     tools:context=".Home"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
-<include layout="@layout/toolbar"/>
-
-    <androidx.appcompat.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/teal_200">
-
-    </androidx.appcompat.widget.Toolbar>
 
 
 
-    <com.google.android.material.navigation.NavigationView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/nav_view"
+        android:id="@+id/frameLayout"
+        android:layout_below="@+id/topappbar"
+        />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/topappbar"
+            app:navigationIcon="@drawable/ic_baseline_menu_24"
+
+            app:title="GTC"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+</RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navi_view"
         android:layout_gravity="start"
         app:headerLayout="@layout/header"
-        app:menu="@menu/main_menu"
+        app:menu="@menu/navigation_items"
         android:background="@drawable/fundal"
         android:backgroundTint="#30ffffff"
-      />
+        />
 </androidx.drawerlayout.widget.DrawerLayout>

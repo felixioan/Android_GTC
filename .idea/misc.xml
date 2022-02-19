@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/activity_home.xml" value="0.3307291666666667" />
-        <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/activity_login.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/activity_register.xml" value="0.3307291666666667" />
         <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/header.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/log_in.xml" value="0.31354166666666666" />
         <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/layout/toolbar.xml" value="0.33" />
         <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/menu/main_menu.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/stanf/Desktop/Android_GTC/app/src/main/res/menu/navigation_items.xml" value="0.31354166666666666" />
       </map>
     </option>
   </component>
